@@ -1,0 +1,3 @@
+import Image from "next/image";
+import { Header, Footer, ContactForm, heroImage } from "@/components/site";
+export default function ContactPage() { return <><Header /><main className="page-shell contact-page"><div className="page-heading"><h1>Let&apos;s start<br /><em>a conversation.</em></h1><p>Tell me a little about what you are looking for. I&apos;ll be in touch personally.</p></div><div className="contact-layout"><div className="contact-profile"><Image src={heroImage} alt="Karol-Ann Mozjesik" width={600} height={750} /><h3>Karol-Ann Mozjesik</h3><a href="tel:+12146936034">214-693-6034</a><a href="mailto:ka.mozjesik@compass.com">ka.mozjesik@compass.com</a></div><ContactForm /></div></main><Footer /></>; }
